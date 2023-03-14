@@ -1,0 +1,73 @@
+body{
+  margin:0px;
+
+
+}
+.type{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    color: #84533F;
+}
+.flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+
+}
+#menu-wrapper{
+
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 50px 0px 100px 0px;
+   
+}
+
+img{
+    width: 100%;
+
+}
+
+.menu-coffee {
+    width: 70%;
+    float: left;
+    padding: 15px;
+
+}
+
+.menu-coffee .menu-title {
+
+    font-family: 'Glory', arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #D17857;
+    font-size:19px;
+    text-decoration: none;
+
+}
+
+.menu-coffee .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 2px dotted rgba(0, 0, 0, .3);
+    margin-right: 40px;
+
+}
+
+.menu-coffee .menu-price {
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: 'Glory', arial;
+
+}
+
+.menu-coffee span.clearfix {
+    position: relative;
+    display: block;
+}
